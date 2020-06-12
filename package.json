@@ -1,5 +1,5 @@
 {
-  "name": "ReactGridPrimitive",
+  "name": "react-grid-primitive",
   "version": "1.0.0",
   "description": "A declarative React primitive Grid component that exposes css-grid specification in JSX",
   "main": "./dist/grid.js",

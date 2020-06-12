@@ -12,7 +12,7 @@ Import as follows:
 
 `import Grid from 'react-grid-primitive';`
 
-Then use the grid to define the desired grid layout:
+Then use the grid to define the desired css grid layout:
 
 e.g. for a 200px height header, with a left sidebar that is 100px in width and a main content that takes up the remainder
 
@@ -23,3 +23,8 @@ e.g. for a 200px height header, with a left sidebar that is 100px in width and a
  <Content />
 </Grid>
 ```
+
+## Additional resources
+
+- https://www.w3.org/TR/css-grid-1/
+- https://css-tricks.com/snippets/css/complete-guide-grid/

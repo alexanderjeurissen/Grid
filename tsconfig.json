@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "outDir": "./dist/",
+    "sourceMap": false,
+    "declaration": true,
+    "target": "es2017",
+    "jsx": "react",
     "lib": [
       "dom",
       "dom.iterable",
@@ -24,7 +28,10 @@
       "node"
     ]
   },
+  "exclude": [
+    "**/*.test.ts"
+  ],
   "include": [
-    "src"
+    "src/**/*"
   ]
 }

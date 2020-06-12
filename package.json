@@ -2,13 +2,16 @@
   "name": "ReactGridPrimitive",
   "version": "1.0.0",
   "description": "A declarative React primitive Grid component that exposes css-grid specification in JSX",
-  "main": "./dist/react_grid_primitive.js",
+  "main": "./dist/grid.js",
   "types": "./dist/react_grid_primitive.d.ts",
   "repository": "git@github.com:alexanderjeurissen/Grid.git",
   "author": "Alexander Jeurissen <1220084+alexanderjeurissen@users.noreply.github.com>",
   "license": "GNU General Public License v3.0",
   "bugs": {
     "url": "https://github.com/bunqCommunity/bunqJSClient/issues"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   },
   "directories": {
     "src": "src"
@@ -39,15 +42,12 @@
     "primitive"
   ],
   "dependencies": {
-    "@babel/plugin-proposal-object-rest-spread": "^7.10.1",
-    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
-    "@babel/plugin-transform-runtime": "^7.10.1",
-    "@babel/preset-env": "^7.10.2",
-    "@styled-system/should-forward-prop": "^5.1.5",
     "styled-components": "^5.1.1",
     "styled-system": "^5.1.5"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "@styled-system/should-forward-prop": "^5.1.5",
     "@babel/cli": "^7.10.1",
     "@babel/core": "^7.10.2",
     "@types/node": "^14.0.13",

@@ -1,0 +1,38 @@
+{
+  "name": "ReactGridPrimitive",
+  "version": "1.0.0",
+  "description": "A declarative React primitive Grid component that exposes css-grid specification in JSX",
+  "main": "src/index.js",
+  "repository": "git@github.com:alexanderjeurissen/Grid.git",
+  "author": "Alexander Jeurissen <1220084+alexanderjeurissen@users.noreply.github.com>",
+  "license": "GNU General Public License v3.0",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc --listFiles --newLine lf",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "styled-components",
+    "styled-system",
+    "jsx",
+    "react",
+    "css-grid",
+    "css-grid-layout",
+    "grid",
+    "component",
+    "primitive"
+  ],
+  "dependencies": {
+    "@styled-system/should-forward-prop": "^5.1.5",
+    "@types/styled-components": "^5.1.0",
+    "@types/styled-system": "^5.1.9",
+    "@types/styled-system__should-forward-prop": "^5.1.1",
+    "styled-components": "^5.1.1",
+    "styled-system": "^5.1.5"
+  }
+}

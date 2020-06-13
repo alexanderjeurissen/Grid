@@ -2,7 +2,7 @@
   "name": "react-grid-primitive",
   "version": "1.0.0",
   "description": "A declarative React primitive Grid component that exposes css-grid specification in JSX",
-  "main": "./dist/grid.js",
+  "main": "./dist/react_grid_primitive.js",
   "types": "./dist/react_grid_primitive.d.ts",
   "repository": "git@github.com:alexanderjeurissen/Grid.git",
   "author": "Alexander Jeurissen <1220084+alexanderjeurissen@users.noreply.github.com>",

@@ -1,6 +1,6 @@
 {
   "name": "react-grid-primitive",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A declarative React primitive Grid component that exposes css-grid specification in JSX",
   "main": "./dist/react_grid_primitive.js",
   "types": "./dist/react_grid_primitive.d.ts",
@@ -8,7 +8,7 @@
   "author": "Alexander Jeurissen <1220084+alexanderjeurissen@users.noreply.github.com>",
   "license": "GNU General Public License v3.0",
   "bugs": {
-    "url": "https://github.com/bunqCommunity/bunqJSClient/issues"
+    "url": "https://github.com/alexanderjeurissen/Grid/issues"
   },
   "engines": {
     "node": ">=10.0.0"

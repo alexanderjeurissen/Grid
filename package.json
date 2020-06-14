@@ -8,7 +8,7 @@
   "author": "Alexander Jeurissen <1220084+alexanderjeurissen@users.noreply.github.com>",
   "license": "GNU General Public License v3.0",
   "bugs": {
-    "url": "https://github.com/bunqCommunity/bunqJSClient/issues"
+    "url": "https://github.com/alexanderjeurissen/Grid/issues"
   },
   "engines": {
     "node": ">=10.0.0"

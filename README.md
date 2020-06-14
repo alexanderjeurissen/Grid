@@ -6,7 +6,7 @@ A declarative React primitive Grid component that exposes css-grid specification
 
 Based on Styled System and Styled Components. Written in typescript to provide strict prop validation on css spec adherence.
 
-## Usage (WIP)
+## Usage
 
 Import as follows:
 

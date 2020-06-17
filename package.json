@@ -1,6 +1,6 @@
 {
   "name": "react-grid-primitive",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A declarative React primitive Grid component that exposes css-grid specification in JSX",
   "main": "./dist/react_grid_primitive.js",
   "types": "./dist/react_grid_primitive.d.ts",

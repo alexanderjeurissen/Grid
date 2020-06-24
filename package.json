@@ -1,12 +1,12 @@
 {
-  "name": "react-grid-primitive",
-  "version": "1.0.3",
+  "name": "@alexanderjeurissen/grid",
+  "version": "2.0.0",
   "description": "A declarative React primitive Grid component that exposes css-grid specification in JSX",
   "main": "./dist/react_grid_primitive.js",
   "types": "./dist/react_grid_primitive.d.ts",
   "repository": "git@github.com:alexanderjeurissen/Grid.git",
   "author": "Alexander Jeurissen <1220084+alexanderjeurissen@users.noreply.github.com>",
-  "license": "GNU General Public License v3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alexanderjeurissen/Grid/issues"
   },
@@ -28,7 +28,8 @@
     "test:dev": "cross-env ENV_CI=true DEV_MODE=true jest --watch --coverage --config jest.config.js",
     "test:jest": "cross-env ENV_CI=true jest --verbose --forceExit --coverage --config jest.config.js",
     "test:prettier": "prettier-check \"+(tests|src|examples)/**/**.+(js|ts)\" --tab-width 4 --print-width 120",
-    "preversion": "rm -rf dist/* && yarn build"
+    "preversion": "rm -rf dist/* && yarn build",
+    "postversion": "git push --tags"
   },
   "keywords": [
     "styled-components",
